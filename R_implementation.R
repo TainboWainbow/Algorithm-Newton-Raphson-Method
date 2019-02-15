@@ -1,6 +1,6 @@
 ########################### Installing package ########################################
 
-# This package will let us find derivatives of a given function
+# The package will let us find the derivative of a given function
 if (!"numDeriv" %in% installed.packages()){
   install.packages("numDeriv")
   }
